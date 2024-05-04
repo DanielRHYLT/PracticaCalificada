@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PracticaCalificada</string>
+    <string name="tvExamenParcial">Examen Parcial</string>
+    <string name="ptExamenParcial">Ingrese la nota del examen parcial</string>
+    <string name="tvExamenFinal">Examen Final</string>
+    <string name="ptExamenFinal">Ingrese la nota del examen final</string>
+    <string name="tvPEP">Promedio de evaluacion permanente (PEP)</string>
+    <string name="ptPEP">Ingrese la nota del PEP</string>
+    <string name="btnCalcular">CALCULAR</string>
+    <string name="tvTitulo">Calculo de Notas</string>
+</resources>

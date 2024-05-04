@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/tvTitulo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="161dp" />
+
+    <EditText
+        android:id="@+id/etFinal"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/ptExamenFinal"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <EditText
+        android:id="@+id/etParcial"
+        android:layout_width="363dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/ptExamenParcial"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvExamenParcial"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvExamenFinal"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <EditText
+        android:id="@+id/etPEP"
+        android:layout_width="362dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/ptPEP"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvPEP"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalcular"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
